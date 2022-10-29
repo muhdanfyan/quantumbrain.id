@@ -253,6 +253,10 @@ header
   box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
 }
 
+.img-comingsoon{
+  border-radius: 20px;
+}
+
 .background-header .main-nav .nav li a {
   color: #1e1e1e!important;
 }
@@ -291,7 +295,7 @@ header
 .header-area .main-nav .logo {
   line-height: 100px;
   color: #fff;
-  font-size: 28px;
+  /* font-size: 28px; */
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1428,7 +1432,6 @@ section.contact-us .right-info ul li span {
   display: block;
   font-size: 18px;
   color: #fff;
-  font-weight: 700;
 }
 
 .footer {
