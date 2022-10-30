@@ -1017,7 +1017,7 @@ section.upcoming-meetings .categories .main-button-red a {
 }
 
 .meeting-item .down-content p {
-  margin-left: 50px;
+  /* margin-left: 50px; */
   color: #1f272b;
   font-size: 14px;
 }
@@ -1408,7 +1408,7 @@ section.contact-us #contact button:hover {
 
 section.contact-us .right-info {
   background-color: #a12c2f;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   padding: 40px;
 }
 
