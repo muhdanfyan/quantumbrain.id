@@ -68,7 +68,7 @@ html[xmlns] .clearfix {
 ul, li {
   padding: 0;
   margin: 0;
-  list-style: none;
+  /* list-style: none; */
 }
 
 header, nav, section, article, aside, footer, hgroup {
@@ -1105,6 +1105,10 @@ section.apply-now .item p {
 .accordion-body > .content {
   padding: 20px;
   padding-top: 0;
+}
+
+.accordion-body ul>li{
+  font-size: .9em;
 }
 
 
