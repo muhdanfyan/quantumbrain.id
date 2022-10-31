@@ -1849,7 +1849,7 @@ responsive
   }
 
   section.upcoming-meetings {
-    padding-top: 400px;
+    /* padding-top: 400px; */
   }
 
   section.upcoming-meetings .categories {
