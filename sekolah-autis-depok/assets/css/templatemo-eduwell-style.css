@@ -556,6 +556,17 @@ header
   .header-area .main-nav:before {
     display: none;
   }
+  .main-banner .header-text h2 {
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+    font-size: 40px;
+    color: #111111;
+    font-weight: 900;
+    line-height: 50px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 }
 
 @media (max-width: 767px) {
@@ -723,11 +734,12 @@ section.main-banner {
   position: relative;
   z-index: 2;
   margin-top: 20px;
-  font-size: 64px;
+  font-size: 40px;
   color: #111111;
   font-weight: 900;
-  line-height: 74px;
+  line-height: 50px;
   margin-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-banner .header-text h2 em {
@@ -1751,7 +1763,7 @@ body {
     margin-left: 60px;
   }
   .main-banner .header-text h2 {
-    font-size: 62px;
+    font-size: 40px;
   }
   .header-area {
     background: rgb(219,138,222) !important;
@@ -1905,5 +1917,8 @@ body {
   }
   section.more-info .count-area-content .count-title {
     font-size: 22px;
+  }
+  .header-text h2 {
+    font-size: 20px;
   }
 }
