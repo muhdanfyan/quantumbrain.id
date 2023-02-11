@@ -201,8 +201,8 @@ button {
 }
 
 .layout_padding {
-    padding-top: 100px;
-    padding-bottom: 0px;
+    padding-top: 37px;
+    padding-bottom: 60px;
 }
 
 .padding_0 {
@@ -217,12 +217,15 @@ button {
     float: left;
     background-image: url(../images/banner-img.png);
     height: auto;
-    background-size: 100%;
+    /* background-size: 100%; */
+    /* background-repeat: no-repeat; */
+    background-position: right;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header_bg {
-    background: #fb6818;
+    background: #0095ef;
     border-bottom: 1px solid #ffffff;
 }
 
@@ -237,7 +240,7 @@ button {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #fff;
+    color: #0095ef;
     font-size: 18px;
     text-transform: uppercase;
     padding: 10px 20px 10px 20px;
@@ -246,7 +249,7 @@ button {
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
     color: #ffffff;
-    background-color: #fb6818;
+    background-color: #0095ef;
 }
 
 .navbar-brand {
@@ -266,7 +269,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    padding: 140px 0px;
+    padding: 60px 0px 100px;
 }
 
 .banner_taital {
@@ -287,14 +290,14 @@ button {
 
 .started_text {
     width: 180px;
-    float: left;
+    /* float: left; */
     margin-top: 30px;
 }
 
 .started_text a {
     width: 100%;
     float: left;
-    background-color: #fb6818;
+    background-color: #0095ef;
     padding: 8px 10px;
     color: #fafafa;
     text-align: center;
@@ -316,10 +319,10 @@ button {
 .about_section {
     width: 100%;
     float: left;
-    background-color: #fb6818;
+    background-color: #0095ef;
     height: auto;
     background-size: 100%;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     padding: 95px 0px;
 }
 .margin_top0{
@@ -511,7 +514,7 @@ figure:hover+span {
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-prev:hover {
     color: #ffffff;
-    background-color: #fb6818
+    background-color: #0095ef
 }
 
 
@@ -613,7 +616,7 @@ figure:hover+span {
     width: 100%;
     float: left;
     font-size: 18px;
-    background-color: #fb6818;
+    background-color: #0095ef;
     color: #ffffff;
     text-align: center;
     border-radius: 5px;
@@ -703,7 +706,7 @@ figure:hover+span {
     text-align: center;
     font-size: 16px;
     color: #ffffff;
-    background-color: #fb6818;
+    background-color: #0095ef;
     padding: 10px;
     text-transform: uppercase;
     margin-top: 20px;
@@ -838,7 +841,7 @@ figure:hover+span {
 }
 
 .copyright_text a:hover {
-    color: #fb6818;
+    color: #0095ef;
 }
 
 
