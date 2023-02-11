@@ -1,4 +1,4 @@
-const scriptURL = "https://script.google.com/macros/s/AKfycbzWATIR3YasRapgvzbjpUYqhWQoqJU9CWV51Yk91Moldd0y1X9NBDjNRHwvh2y8lglq/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbyNLsjyxGJyH1pyZkrLgivQUYwubexLbRT1XcNSgUC5rO7eCvX8c6i3B5o30sZemYKbEw/exec";
 const form = document.forms["quantum-form"];
 const btnKirim = document.querySelector(".btn-kirim");
 const btnLoading = document.querySelector(".btn-loading");
@@ -27,7 +27,6 @@ form.addEventListener("submit", (e) => {
     })
     .catch((error) => console.error("Error!", error.message));
 });
-
 
 
 
