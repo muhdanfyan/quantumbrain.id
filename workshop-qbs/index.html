@@ -267,7 +267,7 @@
                         <input type="text" class="mail_text" placeholder="Phone Number" name="phone number"> 
                         <input type="text" class="mail_text" placeholder="Email" name="email">
                         <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="message"></textarea>
-                        <div class="send_bt"><a href="#">SEND</a></div>
+                        <div class="send_bt"><button type="submit" class="btn btn-primary btn-kirim"><a href="#">SEND</a></button></div>
                      </form>
                   </div>
                </div>
@@ -348,14 +348,26 @@
       <!-- form js -->
       <script>
          const scriptURL = 'https://script.google.com/macros/s/AKfycbyNLsjyxGJyH1pyZkrLgivQUYwubexLbRT1XcNSgUC5rO7eCvX8c6i3B5o30sZemYKbEw/exec'
-         const form = document.forms['form-to-workshop-qbs']
+         const form = document.forms['form-to-workshop-qbs'];
+         const btnKirim = document.querySelector('.btn-kirim');
+         const btnLoading = document.querySelector('.btn-loading');
+         const myAlert = document.querySelector('.my-alert');
        
          form.addEventListener('submit', e => {
-           e.preventDefault()
-           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-             .then(response => console.log('Success!', response))
-             .catch(error => console.error('Error!', error.message))
-         })
+        e.preventDefault();
+        // ketika tombol submit diklik
+        // tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        myAlert.classList.toggle('d-none');
+        form.reset();
+            console.log('Success!', response)})
+          .catch(error => console.error('Error!', error.message))
+      })
        </script>
    </body>
 </html>
