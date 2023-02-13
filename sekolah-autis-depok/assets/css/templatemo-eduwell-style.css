@@ -1044,40 +1044,24 @@ section.testimonials:after {
   border-radius: 15px;
   padding: 30px;
   background-color: #fff;
-  margin: 15px;
+  margin: auto;
   transition: all .3s;
   position: relative;
   z-index: 2;
+  width: 300px;height: 500px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
-.testimonials .item:hover {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.06);
-}
-
-.testimonials .item p {
-  font-size: 16px;
-  font-style: italic;
-}
-
-.testimonials .item h4 {
-  margin-top: 30px;
-  font-size: 20px;
-  font-weight: 900;
-  position: relative;
-}
-
-.testimonials .item span {
-  font-size: 13px;
-  font-weight: 700;
-  color: #dc8cdb;
-}
 
 .testimonials .item img {
-  max-width: 44px;
+ width: 100%;
   z-index: 2;
   position: absolute;
-  right: 30px;
-  bottom: 30px
+  right: 0px;
+  bottom: 0px;
+  margin:auto;
 }
 
 .testimonials .owl-dots {
@@ -1127,7 +1111,7 @@ section.contact-us:after {
 
 section.contact-us .contact-info {
   background-color: #fff;
-  margin-top: -30px;
+  margin-top: 30px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
   border-radius: 15px;
   z-index: 5;
@@ -1150,7 +1134,7 @@ section.contact-us .contact-info .icon i {
 }
 
 section.contact-us .contact-info h4 {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 900;
   text-transform: uppercase;
 }
