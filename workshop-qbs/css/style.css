@@ -860,8 +860,13 @@ figure:hover+span {
     padding: 20px 100px;
     color: white;
     border-radius: 60px;
+
 }
 
 #cta h2 {
+    margin-bottom: 50px;
+}
+
+.button-wa{
     margin-bottom: 50px;
 }
